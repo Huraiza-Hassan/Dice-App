@@ -55,6 +55,8 @@ class _homePageState extends State<homePage> {
             return AlertDialog(
               title: Text("Result"),
               content: Text("Player $res won with scores $plr"),
+              contentTextStyle:
+                  TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
               actions: [
                 TextButton(
                     onPressed: () {
