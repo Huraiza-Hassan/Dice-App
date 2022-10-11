@@ -76,22 +76,15 @@ class _homePageState extends State<homePage> {
           child: Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 25),
-                    child: Text(
-                      "Player 1",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                    ),
+                  Text(
+                    "Player 1",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 160),
-                    child: Text(
-                      "Player 2",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                    ),
+                  Text(
+                    "Player 2",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   )
                 ],
               ),
@@ -122,7 +115,7 @@ class _homePageState extends State<homePage> {
                     ),
                   ),
                   SizedBox(
-                    width: 100,
+                    width: 50,
                   ),
                   GestureDetector(
                     onTap: () {
@@ -151,22 +144,15 @@ class _homePageState extends State<homePage> {
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 20),
-                    child: Text(
-                      "Player 1: $pls1",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                    ),
+                  Text(
+                    "Player 1: $pls1",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 160),
-                    child: Text(
-                      "Player 2: $pls2",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                    ),
+                  Text(
+                    "Player 2: $pls2",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                 ],
               ),
@@ -174,22 +160,15 @@ class _homePageState extends State<homePage> {
                 height: 100,
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 20),
-                    child: Text(
-                      "Player 3: $pls3",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                    ),
+                  Text(
+                    "Player 3: $pls3",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 160),
-                    child: Text(
-                      "Player 4: $pls4",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-                    ),
+                  Text(
+                    "Player 4: $pls4",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                 ],
               ),
@@ -221,7 +200,7 @@ class _homePageState extends State<homePage> {
                     ),
                   ),
                   SizedBox(
-                    width: 100,
+                    width: 50,
                   ),
                   GestureDetector(
                     onTap: () {
@@ -250,22 +229,15 @@ class _homePageState extends State<homePage> {
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.only(left: 25),
-                    child: Text(
-                      "Player 3",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                    ),
+                  Text(
+                    "Player 3",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 160),
-                    child: Text(
-                      "Player 4",
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-                    ),
+                  Text(
+                    "Player 4",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   )
                 ],
               ),
